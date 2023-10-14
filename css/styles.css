@@ -458,6 +458,7 @@ section {
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-input {
@@ -465,18 +466,18 @@ section {
     height: 40px;
     border-radius: 4px;
     background-color: transparent;
-    border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #FFFfff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     margin-right: 24px;
     padding: 8px 16px;
-    color: #FFF;
+    color: #FFFfff;
     font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.48px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .footer-input::placeholder {
-    color: #FFF;
+    color: #FFFfff;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.48px;
@@ -488,6 +489,7 @@ section {
 
 .footer-btn {
     display: flex;
+    min-width: 165px;
     justify-content: center;
     align-items: center;
     padding: 8px 24px;
@@ -495,6 +497,11 @@ section {
     background: #4D5AE5;
     border: none;
     cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    max-width: 264px;
 
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -512,7 +519,7 @@ section {
 }
 
 .subscribe-icon {
-    fill: #fff;
+    fill: #ffffff;
     margin-left: 16px;
 }
 
@@ -694,6 +701,20 @@ section {
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.modal .hero-button {
-    margin-top: 24px;
+.modal-button {
+    margin: 24px auto;
+    display: block;
+    min-width: 165px;
+    padding: 16px 32px;
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04px;
+    border: none;
+    background: #4D5AE5;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
