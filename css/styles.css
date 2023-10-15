@@ -616,14 +616,14 @@ section {
     position: relative;
     display: block;
     font-size: 12px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.48px;
     color: #8E8F99;
+    margin-bottom: 8px;
 }
 
 .modal-label {
     display: block;
-    line-height: 1.17;
     margin-bottom: 4px;
 }
 
@@ -645,10 +645,6 @@ section {
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .modal-field:not(:last-child) .modal-input {
-    margin-bottom: 8px;
-} */
 
 .modal-icon {
     position: absolute;
